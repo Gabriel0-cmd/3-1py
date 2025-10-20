@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login do Instagram</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #fafafa;
+        }
+        .login-container {
+            background-color: white;
+            width: 350px;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .login-container h1 {
+            font-size: 32px;
+            text-align: center;
+            margin-bottom: 20px;
+            font-family: 'Pacifico', sans-serif;
+        }
+        .input-field {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-button {
+            width: 100%;
+            padding: 10px;
+            background-color: #3897f0;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .facebook-login {
+            width: 100%;
+            padding: 10px;
+            background-color: #3b5998;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .forgot-password {
+            text-align: center;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        .signup-link {
+            text-align: center;
+            font-size: 14px;
+            margin-top: 20px;
+        }
+        .signup-link a {
+            color: #3897f0;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <h1>Instagram</h1>
+        <input class="input-field" type="text" placeholder="Telefone, nome de usuário ou email" required>
+        <input class="input-field" type="password" placeholder="Senha" required>
+        <button class="login-button">Entrar</button>
+        
+        <button class="facebook-login">Entrar com o Facebook</button>
+        
+        <div class="forgot-password">
+            <a href="#">Esqueceu a senha?</a>
+        </div>
+        
+        <div class="signup-link">
+            <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+        </div>
+    </div>
+
+</body>
+</html>
